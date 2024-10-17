@@ -1,0 +1,1013 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-09-17T12:50:13Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/33210583",
+        "alt_name": "Dworzec Wschodni;Dworzec Wschodnia PKP",
+        "name": "Warszawa Wschodnia",
+        "name:de": "Warschau Ost",
+        "name:en": "Warsaw East",
+        "name:pl": "Warszawa Wschodnia",
+        "name:ru": "Варшава-Восточная",
+        "name:uk": "Вапршава-Східня",
+        "network": "PKP Polskie Linie Kolejowe",
+        "official_name": "Dworzec Warszawa Wschodnia im. Romana Dmowskiego",
+        "old_name": "Dworzec Brzeski;Warszawa Dworzec Terespolski",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ws",
+        "railway:ref:DB": "XPWW",
+        "train": "yes",
+        "uic_ref": "5100066",
+        "wheelchair": "yes",
+        "wikidata": "Q3270196",
+        "wikipedia": "pl:Warszawa Wschodnia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0523678,
+          52.2515889
+        ]
+      },
+      "id": "node/33210583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/637004421",
+        "name": "Warszawa Włochy",
+        "name:pl": "Warszawa Włochy",
+        "note": "Przystanek osobowy i posterunek odgałęźny",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Wł",
+        "source": "Załącznik 2.6 https://www.plk-sa.pl/dla-klientow-i-kontrahentow/warunki-udostepniania-infrastruktury-i-regulaminy/regulamin-sieci/regulamin-sieci-20202021/",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q4399801",
+        "wikipedia": "pl:Warszawa Włochy (przystanek kolejowy)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9145689,
+          52.206084
+        ]
+      },
+      "id": "node/637004421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1628755572",
+        "name": "Warszawa Gocławek",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q2135048",
+        "wikipedia": "pl:Warszawa Gocławek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1326399,
+          52.2386653
+        ]
+      },
+      "id": "node/1628755572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1707479700",
+        "name": "Warszawa Jeziorki",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q1818336",
+        "wikipedia": "pl:Warszawa Jeziorki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9931266,
+          52.1103103
+        ]
+      },
+      "id": "node/1707479700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2043558695",
+        "name": "Warszawa Lotnisko Chopina",
+        "name:en": "Warsaw Chopin Airport",
+        "name:ja": "ワルシャワ・ショパン空港",
+        "name:ja-Hira": "わるしゃわ・しょぴぱんくうこう",
+        "name:ja_rm": "Warushawa・Shopan Kuukou",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "platforms": "1",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "OkL",
+        "train": "yes",
+        "wikidata": "Q2685989",
+        "wikipedia": "pl:Warszawa Lotnisko Chopina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9752099,
+          52.1696272
+        ]
+      },
+      "id": "node/2043558695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2181100077",
+        "name": "Warszawa Falenica",
+        "name:ru": "Варшава Фаленица",
+        "name:uk": "Варшава Фаленіца",
+        "network": "PKP Polskie Linie Kolejowe",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Fl",
+        "train": "yes",
+        "wikidata": "Q2769808",
+        "wikipedia": "pl:Warszawa Falenica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2106772,
+          52.1620483
+        ]
+      },
+      "id": "node/2181100077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2341850090",
+        "name": "Warszawa Ursus Niedźwiadek",
+        "name:pl": "Warszawa Ursus Niedźwiadek",
+        "network": "Koleje Mazowieckie;Szybka Kolej Miejska",
+        "network:short": "KM;SKM",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "platforms": "1",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q16614279",
+        "wikipedia": "pl:Warszawa Ursus-Niedźwiadek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8700172,
+          52.1914638
+        ]
+      },
+      "id": "node/2341850090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2490803804",
+        "name": "Warszawa Dawidy",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q2149548",
+        "wikipedia": "pl:Warszawa Dawidy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9911229,
+          52.1285606
+        ]
+      },
+      "id": "node/2490803804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2889005397",
+        "name": "Warszawa Płudy",
+        "name:ru": "Варшава Плуды",
+        "name:uk": "Варшава Плуди",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q7970967",
+        "wikipedia": "pl:Warszawa Płudy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9858824,
+          52.3340372
+        ]
+      },
+      "id": "node/2889005397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2889019486",
+        "name": "Warszawa Choszczówka",
+        "name:ru": "Варшава Хощувка",
+        "name:uk": "Варшава Хощувка",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q2785363",
+        "wikipedia": "pl:Warszawa Choszczówka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9723613,
+          52.3577057
+        ]
+      },
+      "id": "node/2889019486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3241851873",
+        "name": "Warszawa Aleje Jerozolimskie",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "AJ",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q2682084",
+        "wikipedia": "pl:Warszawa Aleje Jerozolimskie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9411445,
+          52.2057559
+        ]
+      },
+      "id": "node/3241851873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3390793459",
+        "name": "Warszawa Stadion",
+        "name:de": "Warschau Stadion",
+        "name:pl": "Warszawa Stadion",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q2579655",
+        "wikipedia": "pl:Warszawa Stadion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0439574,
+          52.2447462
+        ]
+      },
+      "id": "node/3390793459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3390821831",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "142",
+        "addr:postcode": "02-305",
+        "addr:street": "Aleje Jerozolimskie",
+        "alt_name": "Dworzec Zachodni",
+        "check_date": "2024-06-10",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "_PKP_WIFI",
+        "name": "Warszawa Zachodnia",
+        "name:de": "Warschau West",
+        "name:ja": "ワルシャワ・ザホドニャ駅",
+        "name:pl": "Warszawa Zachodnia",
+        "name:ru": "Варшава-Западная",
+        "name:uk": "Варшава-Заходня",
+        "network": "KM;SKM;PR;ŁKA;IC",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "platforms": "8",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WZ",
+        "railway:ref:DB": "XPWZ",
+        "train": "yes",
+        "uic_ref": "5100067",
+        "website": "https://www.pkp.pl/pl/dworce/warszawa-zachodnia-informacje-dla-podroznych",
+        "wheelchair": "yes",
+        "wikidata": "Q2694091",
+        "wikipedia": "pl:Warszawa Zachodnia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9651719,
+          52.2201572
+        ]
+      },
+      "id": "node/3390821831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3390854024",
+        "name": "Warszawa Ursus",
+        "name:pl": "Warszawa Ursus",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q7970968",
+        "wikipedia": "pl:Warszawa Ursus (przystanek kolejowy)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8852512,
+          52.1964007
+        ]
+      },
+      "id": "node/3390854024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3390898176",
+        "name": "Warszawa Ochota",
+        "name:pl": "Warszawa Ochota",
+        "network": "PKP Polskie Linie Kolejowe",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:station_category": "agglomerative",
+        "start_date": "1963-09-29",
+        "train": "yes",
+        "wikidata": "Q941039",
+        "wikipedia": "pl:Warszawa Ochota (przystanek kolejowy)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9908403,
+          52.2258253
+        ]
+      },
+      "id": "node/3390898176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3392187634",
+        "name": "Warszawa Ursus Północny",
+        "name:pl": "Warszawa Ursus Północny",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "ref": "492101",
+        "train": "yes",
+        "uic_name": "Warszawa Ursus Płn",
+        "uic_ref": "5104164",
+        "wikidata": "Q2199795",
+        "wikipedia": "pl:Warszawa Ursus Północny"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8898498,
+          52.2056545
+        ]
+      },
+      "id": "node/3392187634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3401904483",
+        "name": "Warszawa Rembertów",
+        "name:de": "Warschau-Rembertau",
+        "name:pl": "Warszawa Rembertów",
+        "name:ru": "Варшава Ребмертув",
+        "name:uk": "Варшава Рембертув",
+        "network": "PKP Polskie Linie Kolejowe",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Rm",
+        "wheelchair": "yes",
+        "wikidata": "Q2594587",
+        "wikipedia": "pl:Warszawa Rembertów (stacja kolejowa)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.158478,
+          52.2571084
+        ]
+      },
+      "id": "node/3401904483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3403990011",
+        "name": "Warszawa Olszynka Grochowska",
+        "network": "Koleje Mazowieckie;Szybka Kolej Miejska",
+        "network:short": "KM;SKM",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q1860387",
+        "wikipedia": "pl:Warszawa Olszynka Grochowska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1064928,
+          52.2498804
+        ]
+      },
+      "id": "node/3403990011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3404075447",
+        "name": "Warszawa Anin",
+        "network": "ZTM Warszawa",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q2267292",
+        "wikipedia": "pl:Warszawa Anin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1599414,
+          52.212993
+        ]
+      },
+      "id": "node/3404075447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3404080631",
+        "name": "Warszawa Międzylesie",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q952849",
+        "wikipedia": "pl:Warszawa Międzylesie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.168978,
+          52.2039216
+        ]
+      },
+      "id": "node/3404080631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3404083586",
+        "name": "Warszawa Radość",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q1841543",
+        "wikipedia": "pl:Warszawa Radość"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1871497,
+          52.1857228
+        ]
+      },
+      "id": "node/3404083586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3414297957",
+        "name": "Warszawa Rakowiec",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q644695",
+        "wikipedia": "pl:Warszawa Rakowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9661819,
+          52.1967848
+        ]
+      },
+      "id": "node/3414297957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3414299259",
+        "name": "Warszawa Żwirki i Wigury",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q7970972",
+        "wikipedia": "pl:Warszawa Żwirki i Wigury"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9803082,
+          52.193416
+        ]
+      },
+      "id": "node/3414299259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3414320862",
+        "name": "Warszawa Służewiec",
+        "name:ja": "ワルシャワ・スウジェビエツ",
+        "name:ja_rm": "Warushawa・Suujebietsu",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q3486931",
+        "wikipedia": "pl:Warszawa Służewiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9870352,
+          52.1807488
+        ]
+      },
+      "id": "node/3414320862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3414445834",
+        "name": "Warszawa Okęcie",
+        "name:ja": "ワルシャワ・オケンツィエ",
+        "name:ja_rm": "Warushawa・Okentsie",
+        "name:ru": "Варшава Окенче",
+        "name:uk": "Варшава Окенці",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ok",
+        "wheelchair": "yes",
+        "wikidata": "Q640443",
+        "wikipedia": "pl:Warszawa Okęcie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9873566,
+          52.1657359
+        ]
+      },
+      "id": "node/3414445834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3416823373",
+        "name": "Warszawa Gdańska",
+        "name:pl": "Warszawa Gdańska",
+        "name:ru": "Варшава Гданьска",
+        "name:uk": "Варшава Ґданська",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WG",
+        "railway:ref:DB": "XPWG",
+        "train": "yes",
+        "uic_ref": "5100172",
+        "wheelchair": "yes",
+        "wikidata": "Q1842252",
+        "wikipedia": "pl:Warszawa Gdańska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9923588,
+          52.2590955
+        ]
+      },
+      "id": "node/3416823373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3437788326",
+        "name": "Warszawa Wola",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q7970965",
+        "wikipedia": "pl:Warszawa Wola (przystanek kolejowy)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9578322,
+          52.2297939
+        ]
+      },
+      "id": "node/3437788326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3437806988",
+        "name": "Warszawa Młynów",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q57718803",
+        "wikipedia": "pl:Warszawa Młynów"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9584688,
+          52.2391698
+        ]
+      },
+      "id": "node/3437806988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3437958812",
+        "internet_access": "no",
+        "name": "Warszawa ZOO",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q2371615",
+        "wikipedia": "pl:Warszawa Zoo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0178245,
+          52.2635233
+        ]
+      },
+      "id": "node/3437958812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3438082486",
+        "name": "Warszawa Praga",
+        "network": "PKP Polskie Linie Kolejowe",
+        "old_name": "Praga;Warschau Praga",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WP",
+        "railway:ref:DB": "XPWP",
+        "wheelchair": "yes",
+        "wikidata": "Q2424590",
+        "wikipedia": "pl:Warszawa Praga (stacja kolejowa)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0223526,
+          52.2775107
+        ]
+      },
+      "id": "node/3438082486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3438881727",
+        "name": "Warszawa Toruńska",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q2517452",
+        "wikipedia": "pl:Warszawa Toruńska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0130377,
+          52.2941826
+        ]
+      },
+      "id": "node/3438881727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3439023519",
+        "name": "Warszawa Żerań",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q7970975",
+        "wikipedia": "pl:Warszawa Żerań"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9988691,
+          52.3142173
+        ]
+      },
+      "id": "node/3439023519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3439512895",
+        "name": "Warszawa Zacisze-Wilno",
+        "network": "PKP Polskie Linie Kolejowe",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q9371153",
+        "wikipedia": "pl:Warszawa Zacisze Wilno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0802097,
+          52.2779433
+        ]
+      },
+      "id": "node/3439512895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3457285925",
+        "name": "Warszawa Wawer",
+        "name:ru": "Варшава Вавер",
+        "name:uk": "Варшава Вавер",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Wr",
+        "train": "yes",
+        "wikidata": "Q2395768",
+        "wikipedia": "pl:Warszawa Wawer (stacja kolejowa)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1496497,
+          52.2232926
+        ]
+      },
+      "id": "node/3457285925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337814886",
+        "name": "Warszawa Mokry Ług",
+        "network": "ZTM Warszawa",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "ref": "2920",
+        "train": "yes",
+        "wikidata": "Q30904945",
+        "wikipedia": "pl:Warszawa Mokry Ług"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1704615,
+          52.2772783
+        ]
+      },
+      "id": "node/4337814886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4358027098",
+        "name": "Warszawa Powiśle",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "uic_ref": "5104154",
+        "wheelchair": "no",
+        "wikidata": "Q3276715",
+        "wikipedia": "pl:Warszawa Powiśle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0281295,
+          52.2337064
+        ]
+      },
+      "id": "node/4358027098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6002636000",
+        "name": "Warszawa Koło",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q59240633",
+        "wikipedia": "pl:Warszawa Koło"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9590105,
+          52.2462109
+        ]
+      },
+      "id": "node/6002636000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6944998109",
+        "name": "Warszawa Powązki",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q65168414",
+        "wikipedia": "pl:Warszawa Powązki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9723698,
+          52.2560751
+        ]
+      },
+      "id": "node/6944998109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7515926824",
+        "name": "Warszawa Główna",
+        "name:pl": "Warszawa Główna",
+        "name:ru": "Варшава Глувна",
+        "name:uk": "Варшава Головний",
+        "network": "PKP Polskie Linie Kolejowe",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WGO",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q18180267",
+        "wikipedia": "pl:Warszawa Główna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9850425,
+          52.2250393
+        ]
+      },
+      "id": "node/7515926824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8807709120",
+        "name": "Warszawa Targówek",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q30910086",
+        "wikipedia": "pl:Warszawa Targówek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0517396,
+          52.2642483
+        ]
+      },
+      "id": "node/8807709120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10103356860",
+        "name": "Warszawa Zachodnia peron 9",
+        "network": "KM;SKM",
+        "note": "W Regulaminie sieci (Załącznik 2.6) dany punkt oznaczony jest jako przystanek, natomiast stanowi on integralną część stacji Warszawa Zachodnia",
+        "old_name": "Warszawa Zachodnia peron 8;Warszawa Wola",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "uic_ref": "5104228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.961427,
+          52.2220348
+        ]
+      },
+      "id": "node/10103356860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11081761654",
+        "name": "Warszawa Grochów",
+        "network": "Koleje Mazowieckie;Szybka Kolej Miejska",
+        "network:short": "KM;SKM",
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "public_transport": "station",
+        "railway": "halt",
+        "start_date": "2023-12-10",
+        "train": "yes",
+        "was:proposed:name": "Warszawa Wiatraczna",
+        "wikidata": "Q97370707",
+        "wikipedia": "pl:Warszawa Grochów (przystanek kolejowy)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0842391,
+          52.2555011
+        ]
+      },
+      "id": "node/11081761654"
+    }
+  ]
+}
