@@ -1,4 +1,4 @@
-# Warsaw Real Estate Price Prediction
+# Warsaw Real Estate Analysis and Price Prediction
 
 ![Warsaw Real Estate](./warsaw.jpeg)
 
@@ -51,7 +51,7 @@ The final model did an awesome job! It achieved a **Mean Absolute Error (MAE) of
    - Check out the Jupyter notebooks to see how we processed the data, analyzed features, and built a price prediction model.
 
 3. **Predictions**:
-   - If you want to predict apartment prices, you can use the trained XGBoost model (`model.joblib`).
+   - If you want to predict apartment prices, you can use the trained XGBoost model (`prediction_model.joblib`).
 
    Here's how you can use it:
 
@@ -67,7 +67,8 @@ The final model did an awesome job! It achieved a **Mean Absolute Error (MAE) of
 
    # Make predictions
    predicted_price = model.predict(data)
-   print(predicted_price)
+   data['SquareMeterPrice']=predicted_price
 
 
-**Remember that data must be in proper shape, you can check "preprocessed_data.csv" file to see how it looks.**
+
+**Note: The input data must be in the correct format. You can refer to the preprocessed_data.csv file to understand the required structure. The 'SquareMeterPrice' column in the input data is a placeholder and does not affect predictions but is necessary for maintaining the proper data shape.**
