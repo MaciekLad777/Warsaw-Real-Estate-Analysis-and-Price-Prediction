@@ -2,54 +2,72 @@
 
 ![Warsaw Real Estate](./warsaw.jpeg)
 
-**Welcome to the Warsaw Real Estate Price Prediction project! This repository contains an in-depth look at what drives apartment prices in Warsaw. We explore key factors like proximity to the city center, the condition of the flats, building materials, and distances to important services like schools, healthcare, and public transport.**
+**This project explores key factors driving apartment prices in Warsaw. It analyzes location, infrastructure access, building materials, and other variables to build a reliable machine learning model for property price prediction.**
+
+---
 
 ## Project Overview
 
-The project is broken down into four main sections:
+The project consists of four main components:
 
 1. **Power BI Report**
-   - A great introduction to the overall topic.
-   - Analyzing how individual features affect apartment prices.
-   - Exploring relationships and dependencies between different features.
+   - Provides a visual introduction to the dataset and key pricing factors.
+   - Shows how different features impact apartment prices.
+   - Highlights correlations and trends between variables.
 
 2. **Data Preprocessing**
-   - Cleaning and prepping the data.
-   - Assigning apartments to districts based on geolocation.
-   - Calculating distances to places like malls, train stations, etc.
-   - Studying data distribution and removing outliers.
+   - Cleans and prepares raw data for modeling.
+   - Assigns apartments to districts based on GPS coordinates.
+   - Calculates distances to schools, malls, hospitals, transit hubs, etc.
+   - Examines data distributions and removes outliers.
 
-3. **Feature Correlation and Impact**
-   - Investigating which features are most closely linked to price.
-   - Using Lasso regression (for linear relationships) and SHAP values with XGBoost (for non-linear ones) to assess feature importance.
+3. **Feature Correlation and Importance**
+   - Identifies the most influential features affecting price.
+   - Applies Lasso regression for linear analysis.
+   - Uses SHAP values with XGBoost to capture non-linear relationships.
 
 4. **Price Prediction Model**
-   - Applying Principal Component Analysis (PCA) to similar features.
-   - Building a machine learning model to predict apartment prices.
-   - Combining a custom Keras model for data preprocessing with an XGBoost model for price prediction.
-   - Fine-tuning the model with RandomizedSearchCV for optimal performance.
+   - Applies PCA to reduce dimensionality of correlated features.
+   - Combines a Keras preprocessing pipeline with an XGBoost regressor.
+   - Optimizes model parameters with RandomizedSearchCV.
+
+---
 
 ## Project Structure
 
-- `Warsaw_real_estate_analysis.pbix`: Power BI report that visualizes the key factors affecting real estate prices.
-- `Data_preprocessing.ipynb`: Jupyter notebook for data cleaning, outlier removal, and feature engineering.
-- `Features_analysis.ipynb`: Jupyter notebook for feature correlation analysis using Lasso regression and SHAP values.
-- `Real_estate_price_prediction.ipynb`: Jupyter notebook that contains the final machine learning model using XGBoost and Keras for preprocessing.
+- `Warsaw_real_estate_analysis.pbix`  
+  Power BI dashboard exploring price trends and feature impact.
 
-- `prediction_model.joblib`: The trained XGBoost model saved in Joblib format, ready for making predictions.
+- `Data_preprocessing.ipynb`  
+  Jupyter notebook for cleaning, outlier removal, and feature engineering.
+
+- `Features_analysis.ipynb`  
+  Feature importance analysis using Lasso regression and SHAP.
+
+- `Real_estate_price_prediction.ipynb`  
+  Final ML pipeline using XGBoost and Keras preprocessing.
+
+- `prediction_model.joblib`  
+  Trained XGBoost model (Joblib format) ready for prediction.
+
+---
 
 ## Model Performance
 
-The final model did an awesome job! It achieved a **Mean Absolute Error (MAE) of less than 16**, which is pretty impressive considering apartment prices in Warsaw range from around **10k to 30k** per square meter.
+The final model achieved a **Mean Absolute Error (MAE) below 16**, which is impressive given that apartment prices in Warsaw typically range from **10,000 to 30,000 PLN per square meter**.
+
+---
 
 ## How to Use
 
-1. **Power BI Report**:
-   - Explore the Power BI report (`Warsaw_real_estate_analysis.pbix`) to visualize and understand the factors affecting apartment prices.
+1. **Power BI Dashboard**  
+   Open `Warsaw_real_estate_analysis.pbix` to explore interactive visualizations and key insights.
 
-2. **Jupyter Notebooks**:
-   - Check out the Jupyter notebooks to see how we processed the data, analyzed features, and built a price prediction model.
+2. **Jupyter Notebooks**  
+   Walk through the preprocessing, feature analysis, and modeling steps in the provided notebooks.
 
-3. **Predictions**:
-   - If you want to predict apartment prices, you can use the trained XGBoost model (`prediction_model.joblib`), which is in MODEL directory.
+3. **Making Predictions**  
+   Load the trained model from `prediction_model.joblib` and use it to predict apartment prices using your own data.
+
+---
 
