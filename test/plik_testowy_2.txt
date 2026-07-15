@@ -1,0 +1,2 @@
+To jest drugi testowy plik tekstowy.
+Można go użyć do prostych testów operacji na plikach.

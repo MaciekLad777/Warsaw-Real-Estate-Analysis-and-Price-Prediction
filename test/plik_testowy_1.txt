@@ -1,0 +1,2 @@
+To jest pierwszy testowy plik tekstowy.
+Zawiera przykładową treść do sprawdzenia folderu test.
